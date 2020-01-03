@@ -1,0 +1,174 @@
+body {
+    margin-top : 0px;
+    margin-left : 0px;
+    margin-right : 0px;
+    text-align : center;
+    font-family : 'Times New Roman', sans-serif;
+    font-size : 20px;
+}
+
+
+.top-container h1 {
+    font-size : 2.5rem;
+    position : relative;
+}
+
+
+.top-container h2 {
+    position : relative;
+    font-family : 'Cambria', sans-serif;
+    font-weight : normal;
+    font-size : 1.8rem;
+    color : #66BFBF;
+}
+
+
+hr {
+    border-style : none;
+    border-top : 9px dotted lightgray;
+    width : 5%;
+    margin : 90px auto 90px auto;
+}
+
+
+.pro {
+    text-decoration : underline;
+}
+
+
+.about {
+    width : 65%;
+    margin : auto;
+    color : #40514E;
+}
+
+.bio {
+    margin-top : 20px;
+    line-height : 1.4;
+}
+
+.skills h2 {
+    margin-bottom : 80px;
+}
+
+
+.skill-row table {
+    margin : auto;
+}
+
+
+.skill-row {
+    width : 50%;
+    text-align : left;
+    margin : auto;
+}
+
+
+.skill-row p {
+    line-height : 2;
+}
+
+
+.top-container {
+    background-color : #EAF6F6;
+    position : relative;
+    padding-top : 100px;
+    line-height : 2;
+    margin-bottom : 40px;
+}
+
+
+.bottom-container {
+    background-color : #66BFBF;
+    padding : 40px 0 20px;
+
+}
+
+.bottom-container a {
+    font-weight : bold;
+    margin : 10px;
+    text-decoration : none;
+}
+
+.bottom-container a:hover {
+    color : #EAF6F6;
+}
+
+.bottom-container p {
+    color : white;
+    font-size : 18px;
+
+}
+
+.profile img {
+    height : 325px;
+    width : 325px;
+    border-radius : 50%;
+
+}
+
+
+.skill-row img {
+    height : 200px;
+    width : 200px;
+    float : left;
+    margin-right : 50px;
+    border-radius : 50%;
+}
+
+
+.top-cloud {
+    position : absolute;
+    right : 450px;
+    top : 70px;
+}
+
+
+.bottom-cloud {
+    position : absolute;
+}
+
+
+h1, h2 {
+    color : #66BFBF;
+}
+
+
+h3, a {
+    color : #11999E;
+}
+
+
+/********************** Button (Contact Me) ***********************/
+.btn-arrow-right.xlg {
+    font-size: 20px;
+    padding: 2px 32px 2px 32px;
+    margin-bottom : 40px;
+    text-decoration : none;
+}
+
+.btn-arrow-right:hover {
+    background-color : lightsalmon;
+    color : white;
+}
+
+.btn-arrow-right.xlg {
+    border-radius: 50px;
+}
+
+
+.btn-arrow-right {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    background-color: #0097d5;
+    width: auto;
+    color: #fff;
+    border: none;
+    overflow: hidden;
+    transition: all .2s;
+    font-family: "Proxima Nova",sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+}
